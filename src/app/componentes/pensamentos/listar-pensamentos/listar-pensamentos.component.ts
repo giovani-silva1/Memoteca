@@ -3,13 +3,22 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-listar-pensamentos',
   templateUrl: './listar-pensamentos.component.html',
-  styleUrls: ['./listar-pensamentos.component.css']
+  styleUrls: ['./listar-pensamentos.component.css'],
 })
 export class ListarPensamentosComponent implements OnInit {
+  listaPensamentos = [
+    {
+      conteudo: 'Passo informações para o Componente Filho ',
+      autoria: 'Componente Pai',
+      modelo: 'modelo1',
+    },
+    {
+      conteudo: 'Minha propriedade é decorada com o componente @Input',
+      autoria: 'Filho dizendo',
+      modelo: 'modelo3',
+    },
+  ];
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
