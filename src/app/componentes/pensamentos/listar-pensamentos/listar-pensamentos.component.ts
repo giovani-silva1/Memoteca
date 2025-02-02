@@ -17,6 +17,13 @@ export class ListarPensamentosComponent implements OnInit {
       autoria: 'Filho dizendo',
       modelo: 'modelo3',
     },
+
+    {
+      conteudo:
+        'Vou testar agora o conteudo grande para ver o que acontece com o card , LorenIpsum LorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsum',
+      autoria: 'Filho dizendo',
+      modelo: 'modelo3',
+    },
   ];
   constructor() {}
 
