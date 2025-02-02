@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PensamentoService } from '../pensamento.service';
+import { Pensamento } from 'src/app/model/pensamento';
 
 @Component({
   selector: 'app-listar-pensamentos',
@@ -6,26 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listar-pensamentos.component.css'],
 })
 export class ListarPensamentosComponent implements OnInit {
-  listaPensamentos = [
-    {
-      conteudo: 'Passo informações para o Componente Filho ',
-      autoria: 'Componente Pai',
-      modelo: 'modelo1',
-    },
-    {
-      conteudo: 'Minha propriedade é decorada com o componente @Input',
-      autoria: 'Filho dizendo',
-      modelo: 'modelo3',
-    },
+  listaPensamentos: Pensamento[] = [];
+  constructor(private service: PensamentoService) {}
 
-    {
-      conteudo:
-        'Vou testar agora o conteudo grande para ver o que acontece com o card , LorenIpsum LorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsumLorenIpsum',
-      autoria: 'Filho dizendo',
-      modelo: 'modelo3',
-    },
-  ];
-  constructor() {}
-
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
+    });
+  }
 }

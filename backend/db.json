@@ -1,0 +1,40 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que voce esta aqui",
+      "autoria": "Giovani",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Warzone morreu",
+      "autoria": "GiovaniFPS",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Raiperzinho desinstalou o jogo",
+      "autoria": "Giovani",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 4,
+      "conteudo": "Zegatao finalizou a casa e agora tem um  PS5",
+      "autoria": "Giovani",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 5,
+      "conteudo": "Que bom que voce esta aqui",
+      "autoria": "Giovani",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 6,
+      "conteudo": "Bressan venceu partidas com 5 kills kkkkkk",
+      "autoria": "Giovani",
+      "modelo": "modelo2"
+    }
+  ]
+}
