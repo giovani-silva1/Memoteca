@@ -2,25 +2,19 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que voce esta aqui",
+      "conteudo": "Que bom programar com Angular",
       "autoria": "Giovani",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Warzone morreu",
-      "autoria": "GiovaniFPS",
+      "conteudo": "A vida não é um morango",
+      "autoria": "GiovaniDEV",
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Raiperzinho desinstalou o jogo",
-      "autoria": "Giovani",
-      "modelo": "modelo3"
-    },
-    {
       "id": 4,
-      "conteudo": "Zegatao finalizou a casa e agora tem um  PS5",
+      "conteudo": "Onde uma porta se fecha outras se abre",
       "autoria": "Giovani",
       "modelo": "modelo1"
     },
@@ -29,12 +23,6 @@
       "conteudo": "Que bom que voce esta aqui",
       "autoria": "Giovani",
       "modelo": "modelo1"
-    },
-    {
-      "id": 6,
-      "conteudo": "Bressan venceu partidas com 5 kills kkkkkk",
-      "autoria": "Giovani",
-      "modelo": "modelo2"
     }
   ]
 }
